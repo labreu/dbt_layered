@@ -43,3 +43,8 @@ dbt_transformations:
 # Snapshots
 - dbt snapshot
 - SELECT * FROM snapshots.gold_daily_transactions_snapshot
+
+
+# Docs
+- dbt docs generate
+- dbt docs serve
