@@ -39,3 +39,7 @@ dbt_transformations:
 - Gets csv data as an incremental file with unique key treatment and loads into raw table
 - Silver table gets deduplicated data from the raw table
 - Gold table is an aggregation of the silver
+
+# Snapshots
+- dbt snapshot
+- SELECT * FROM snapshots.gold_daily_transactions_snapshot
